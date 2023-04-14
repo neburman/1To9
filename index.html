@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/bootstrap-icons.css" rel="stylesheet"/>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand col-1 d-flex flex-wrap justify-content-between align-items-center" href="#">
-                <img src="img/1To9Black.png" alt="Logo" class="d-inline-block align-text-center col-5">
+            <a class="navbar-brand col-6 col-lg-2 d-flex flex-wrap justify-content-between align-items-center" href="#">
+                <img src="img/1To9White.png" alt="Logo" class="d-inline-block align-text-center col-5">
                 <div class="col-6 d-flex justify-content-around">
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-instagram fs-4"></i>
+                    <i class="bi bi-twitter fs-4"></i>
+                    <i class="bi bi-tiktok fs-4"></i>
+                    <i class="bi bi-twitch fs-4"></i>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,7 +35,7 @@
                         <a class="nav-link" href="#">Nuestra historia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Noticias</a>
+                        <a class="nav-link" href="#">Eventos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Equipos</a>
@@ -43,7 +44,7 @@
                         <a class="nav-link" href="#">Patrocinadores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Programación</a>
+                        <a class="nav-link" href="#">Recuerdos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tienda</a>
@@ -55,22 +56,32 @@
             </div>
         </div>
     </nav>
-    <div id="carouselHome" class="carousel slide col-6 m-auto mt-3 position-relative" data-bs-ride="carousel">
+    <div id="carouselHome" class="carousel slide col-11 col-lg-8 m-auto mt-3 position-relative" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/1To9Black.png" class="d-block w-100" alt="1To9Black">
-            </div>
-            <div class="carousel-item">
-                <img src="img/1To9White.png" class="d-block w-100" alt="1To9White">
+                <img src="img/Tournament.jpeg" class="d-block w-auto m-auto" style="max-height: calc(25vw + 25vh);" alt="1To9Black">
             </div>
         </div>
-        <div class="position-absolute top-0 end-0 col-6 d-flex flex-wrap justify-content-end align-items-end text-white flex-column" style="height: 100%;background-color: rgb(128 128 128 / 50%);">
-            <h1 class="col-12 text-center" style="font-size: 7.5rem;">1To9</h1>
-            <p class="col-12 text-center" style="font-size: 2rem; overflow-wrap: break-word;">El mejor equipo de eSports</p>
+        <div class="position-absolute bottom-0 end-0 col-12 col-lg-6 d-flex flex-wrap justify-content-end align-items-end text-white flex-column" style="height: min-content;background-color: rgb(128 128 128 / 50%);">
+            <h1 class="col-12 text-center fs-1">1To9</h1>
+            <p class="col-12 text-center fs-5" style="overflow-wrap: break-word;">Creación | Contenido | Cantera</p>
         </div>
     </div>
-    <div>
+    <div class="bg-black mt-3 col-lg-11 m-auto">
+        <h1 class="col-12 text-center fs-1 text-white">Sobre 1To9</h1>
+        <p class="col-10 text-center m-auto fs-5 text-white">
+            1To9 es un club creado en Bilbao, con la idea de convertir a jugadores amateurs “del 1” en profesionales del mundo del entretenimiento y los esports “al 9”. <br>
+            En nuestro club, nos dedicamos a formar jugadores para que logren participar en los torneos más importantes del mundo de los esports, creando una cantera de jugadores que entrenamos desde abajo. <br>
+            También organizamos eventos y actividades para promover el entretenimiento relacionado con los videojuegos. Desde torneos más pequeños hasta grandes eventos que atraen a miles de espectadores. <br>
+            Queremos que nuestra organización se convierta en un referente en el mundo de los videojuegos y el entretenimiento. Empezando por pequeños proyectos y evolucionado para ofrecer una experiencia de entretenimiento y competición de alta calidad. <br>
+            Creemos que la creación de contenido es muy importante para llegar a formar una marca reconocida. Valoramos la importancia de nuestros seguidores, esforzándonos por mantener una comunidad activa, fiel y que sientan que forman parte de 1To9.
+        </p>
+    </div>
+    <div class="col-lg-11 mt-3 m-auto">
+        <h1 class="col-12 fs-1 text-white">Equipos 1To9</h1>
+        <div class="col-12 d-flex justify-content-around align-baseline">
 
+        </div>
     </div>
     <footer>
 
